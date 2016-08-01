@@ -1,14 +1,13 @@
 'use strict';
 
-var React = require('react-native');
-var {
+import React, { Component } from 'react';
+import {
   StyleSheet,
-  Component,
   View,
   Text,
   Navigator,
   TouchableOpacity,
-} = React;
+} from 'react-native';
 
 class PersonPage extends Component {
   render() {

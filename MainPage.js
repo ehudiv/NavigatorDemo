@@ -1,15 +1,14 @@
 'use strict';
 
-var React = require('react-native');
-var {
+import React, { Component } from 'react';
+import {
   StyleSheet,
-  Component,
   View,
   Text,
   Navigator,
   TouchableHighlight,
   TouchableOpacity,
-} = React;
+} from 'react-native';
 
 class MainPage extends Component {
   render() {
